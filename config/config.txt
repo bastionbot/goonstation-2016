@@ -68,11 +68,11 @@ ALLOW_AI
 NORESPAWN
 
 # set a hosted by name for unix platforms
-HOSTEDBY Galactic Order of Oppressive Neckbeards
+HOSTEDBY Serious Overchill: 24/7 Good Vibes
 
 # name
-#SERVERNAME Gibbed
-SERVERNAME LLJK
+#SERVERNAME SRSOC
+SERVERNAME SRSOC
 SERVERSUFFIX
 SERVERREGION US
 
