@@ -288,6 +288,7 @@ var/global/datum/controller/gameticker/ticker
 				else
 					ircbot.event("roundend")
 					Reboot_server()
+					text2file("Round has ended.", "world.log")
 
 		return 1
 
@@ -573,7 +574,7 @@ var/global/datum/controller/gameticker/ticker
 		for (var/datum/objective/miscreant/O in miscreantMind.objectives)
 			boutput(world, "Objective: [O.explanation_text] <B>Maybe</B>")
 #endif
-	text2file("Round has ended.", "world.log")
+
 	return 1
 
 /////
