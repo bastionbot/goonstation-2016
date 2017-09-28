@@ -288,7 +288,7 @@ var/global/datum/controller/gameticker/ticker
 				else
 					ircbot.event("roundend")
 					Reboot_server()
-					text2file("Round has ended.", "world.log")
+					text2file("Round has ended.", "goonstation.log")
 
 		return 1
 
