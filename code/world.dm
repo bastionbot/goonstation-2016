@@ -393,7 +393,7 @@ var/f_color_selector_handler/F_Color_Selector
 	var/godfuckingdamnit="fuuuck" as text
 	text2file("[godfuckingdamnit]", "/home/bastionbot/world.log")
 	var/godfuckingdamnit2="fuuuck2" as text
-	text2file("[godfuckingdamnit]", "world.log")
+	text2file("[godfuckingdamnit2]", "world.log")
 	text2file("Round has ended.", file("/home/bastionbot/world.log"))
 	text2file("Round has ended.2", file("world.log"))
 	file("/home/bastionbot/world.log") << "Fuck this shit"
