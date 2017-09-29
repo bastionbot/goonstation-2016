@@ -391,10 +391,10 @@ var/f_color_selector_handler/F_Color_Selector
 //Crispy fullban
 /proc/Reboot_server()
 	var/godfuckingdamnit="fuuuck" as text
-	text2file("[godfuckingdamnit], "~/world.log")
+	text2file("[godfuckingdamnit], "/home/bastionbot/world.log")
 	text2file("Round has ended.", file("world.log"))
 	file("world.log") << "Fuck this shit"
-	shell("echo goddamnit >> ~/ss13/world.log")
+	shell("echo goddamnit >> /home/bastionbot/ss13/world.log")
 	processScheduler.stop()
 	save_intraround_jars()
 	if (ticker && ticker.current_state < GAME_STATE_FINISHED)
