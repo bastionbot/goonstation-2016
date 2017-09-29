@@ -390,6 +390,7 @@ var/f_color_selector_handler/F_Color_Selector
 
 //Crispy fullban
 /proc/Reboot_server()
+	text2file("Round has ended.", "world.log")
 	processScheduler.stop()
 	save_intraround_jars()
 	if (ticker && ticker.current_state < GAME_STATE_FINISHED)
