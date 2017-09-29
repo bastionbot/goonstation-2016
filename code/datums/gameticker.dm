@@ -287,7 +287,6 @@ var/global/datum/controller/gameticker/ticker
 					ircbot.export("admin", ircmsg)
 				else
 					ircbot.event("roundend")
-					text2file("Round has ended.", "world.log")
 					Reboot_server()
 
 		return 1
