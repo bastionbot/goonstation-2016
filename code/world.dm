@@ -392,9 +392,14 @@ var/f_color_selector_handler/F_Color_Selector
 /proc/Reboot_server()
 	var/godfuckingdamnit="fuuuck" as text
 	text2file("[godfuckingdamnit]", "/home/bastionbot/world.log")
-	text2file("Round has ended.", file("world.log"))
-	file("world.log") << "Fuck this shit"
+	var/godfuckingdamnit2="fuuuck2" as text
+	text2file("[godfuckingdamnit]", "world.log")
+	text2file("Round has ended.", file("/home/bastionbot/world.log"))
+	text2file("Round has ended.2", file("world.log"))
+	file("/home/bastionbot/world.log") << "Fuck this shit"
 	shell("echo goddamnit >> /home/bastionbot/ss13/world.log")
+	file("world.log") << "Fuck this shit2"
+	shell("echo goddamnit2 >> world.log")
 	processScheduler.stop()
 	save_intraround_jars()
 	if (ticker && ticker.current_state < GAME_STATE_FINISHED)
