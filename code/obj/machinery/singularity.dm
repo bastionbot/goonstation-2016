@@ -20,7 +20,7 @@ Contains:
 	anchored = 1
 	density = 1
 	mats = 250
-	var/bhole = 1
+	var/bhole = 0 // was set to 1 maybe to stop people starting a sing engine -spookydonut
 /* no
 /obj/machinery/the_singularitygen/New()
 	..()
