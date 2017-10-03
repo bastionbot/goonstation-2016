@@ -1055,6 +1055,7 @@ for some reason I brought it back and tried to clean it up a bit and I regret ev
 	anchored = 1
 	density = 1
 	directwired = 1
+	mats = 10
 	var/magic = 0
 	var/active = 0
 	var/obj/item/tank/plasma/P = null
@@ -1157,6 +1158,7 @@ for some reason I brought it back and tried to clean it up a bit and I regret ev
 	anchored = 1
 	density = 1
 	directwired = 1
+	mats = 10
 	var/magic = 0
 	var/active = 0
 	var/lastpower = 0
